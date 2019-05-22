@@ -10,7 +10,7 @@ public class JDBCUtil {
     public static String DRIVERNAME = "com.mysql.jdbc.Driver";
     public static String URL = "jdbc:mysql://localhost:3306/crm";
     public static String USER = "root";
-    public static String PASSWORD = "root";
+    public static String PASSWORD = "123456";
  
     public static Connection conn = null;
  

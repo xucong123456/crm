@@ -31,7 +31,7 @@ public class ShowMenuService1 {
 			List<Menu>  s_m = gdao.getSecondMenuFromByPid(f_m.getInt("id"));
 			JSONArray  smjson = JSONArray.fromObject(s_m);
 			for (int j = 0; j < smjson.size(); j++) {
-				JSONObject sm = smjson.getJSONObject(i);
+				JSONObject sm = smjson.getJSONObject(j);
 				sm.put("state", "open");
 				JSONObject attr = new JSONObject();
 				attr.put("menupath", sm.getString("menuPath"));

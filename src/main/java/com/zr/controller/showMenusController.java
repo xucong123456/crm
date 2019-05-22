@@ -33,7 +33,7 @@ public class showMenusController  extends HttpServlet{
 //		   pw.flush();
 //		   pw.close();
 		//-------------------分割线
-		System.out.println(s1.getMenus());
+		//System.out.println(s1.getMenus());
 		   resp.setCharacterEncoding("utf8");
 		   PrintWriter   pw = resp.getWriter();
 		   pw.write(s1.getMenus().toString());
