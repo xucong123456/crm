@@ -45,4 +45,14 @@
    	 <servlet-name>showmenu</servlet-name>
    	 <url-pattern>/showMenus</url-pattern>
    </servlet-mapping>
+   
+               <!-- datagrid -->
+   <servlet>
+   	 <servlet-name>showUserInfo</servlet-name>
+   	 <servlet-class>com.zr.controller.ShowUserInfoController</servlet-class>
+   </servlet>
+   <servlet-mapping>
+   	 <servlet-name>showUserInfo</servlet-name>
+   	 <url-pattern>/showUserInfo</url-pattern>
+   </servlet-mapping>
 </web-app>
